@@ -1,0 +1,56 @@
+.campo{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+li{
+    margin-bottom: 15px;
+}
+.UL{
+    list-style: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(146, 120, 172);
+    box-shadow: 4px 4px 6px;
+}
+label{
+    font-size: 24px;
+    color: white;
+}
+input{
+    width: 350px;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.BT{
+    font-size: 22px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 70px;
+    font-family: Arial;
+    box-shadow: 2px 2px 1px black;
+    background-color: rgb(152, 77, 223);
+    color: white;
+    transition: ease-in-out 0.2s;
+    margin-top: 20px;
+}
+.BT:hover{
+    transform:translateY(-4px) ;
+    box-shadow: 2px 6px 3px black;
+    cursor: pointer;
+}
+.BT:active{
+    transform: translateY(5px);
+    box-shadow: 1px 1px 0px black;
+}
+#voltar{
+    margin-right: 20px;
+}
+
